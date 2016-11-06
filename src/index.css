@@ -212,7 +212,10 @@ flex-direction: row;
 }
 
 .projects-images {
-  
+  display: block;
+  width: 100%;
+  flex: 0 1 10%;
+  margin: 0;
 }
 
 .about {
@@ -257,6 +260,7 @@ flex-direction: row;
     margin-right: 0;
     flex: 1 1 40%;
   }
+
 }
 
 @media (min-width: 701px) and (max-width:840px) {
