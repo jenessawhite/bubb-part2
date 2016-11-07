@@ -23,7 +23,10 @@ header {
   display: flex;
   flex-direction: row;
   height: 100px;
-  /*background-color: #8a8a8a;*/
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 .center {
@@ -370,12 +373,36 @@ flex-direction: row;
   font-size: 20px;
 }
 
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  background-color: #5c6874;
+  text-align: center;
+  font-size: 18px;
+}
+
+.contact-img {
+  display: block;
+  width: 100%;
+}
+
+.contact-text {
+  color: #fafafa;
+  margin: 1rem;
+}
+
+.contact-subtext {
+  color: #fafafa;
+  font-weight: bold
+}
+
 .footer {
-  background-color: #FAFAFA;
+  background-color: #fff;
   display: flex;
   flex-direction: column;
   height: 100px;
   justify-content: center;
+  color: #6d6d6d;
 }
 
 
